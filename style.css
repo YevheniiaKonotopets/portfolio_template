@@ -4,6 +4,31 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 800px) {
+  .smaller-h1 {
+    font-size: 30px;
+  }
+
+  .smaller-h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  img {
+    display: none;
+  }
+
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
+
 body {
   margin-top: 100px;
 }
